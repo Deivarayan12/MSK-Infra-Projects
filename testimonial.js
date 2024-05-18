@@ -1,6 +1,6 @@
 var appendingContainer = document.getElementById("adding-items");
 
-fetch('https://script.google.com/macros/s/AKfycbzL0EcLpL5vtBwJzABTcY5WmjSulZectvES2oLhbe31_el0ntAtDTjJDnfpnDA1DcvB/exec')
+fetch('https://script.google.com/macros/s/AKfycbzDyWWA_axpAuCa_Uau1aho6XJgiG88R3fo-gYIxVF1fkSoapvflsUdILUpV3G_JP_n/exec')
     .then(response => {
         if (!response.ok) {
             throw new Error('Network response was not ok');
